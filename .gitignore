@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environment
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Flask cache and logs
+*.log
+instance/
+*.db
+*.sqlite3
+
+# VSCode settings (optional)
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Jupyter Notebook checkpoints (just in case)
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# MyPy, Pyright
+.mypy_cache/
+.pyright/
+
+# Unit test files
+test-results/
+
+# Local development tools
+*.local
